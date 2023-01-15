@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: static;
+    overflow-x: hidden !important;
+}
+
+ol,
+ul{
+    list-style: none;
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* common css */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.imgbox{
+    width: 100%;
+    overflow: hidden;
+}
+.imgbox img{
+    width: 100%;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+
+/* navbar */
+.navbar{
+    padding: 25px 0px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .logo{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+}
+
+.navbar .nav_menu li a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+}
+
+/* banner */
+
+.banner{
+    background: rgba(255, 144, 14, 0.1);
+}
+.banner h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.banner .button_box{
+    display: flex;
+    justify-content: center;
+}
+.banner .button_box button{
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    transition: all linear 0.3s;
+}
+.banner .button_box button:hover{
+    background-color: #FF900E80;
+}
+
+/* feature */
+.feature .container{
+    display: flex;
+    gap: 20px;
+}
+.feature .img_div{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature .img_div .imgbox{
+    width: 45%;
+}
+
+.feature .text_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature .text_div h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.feature .text_div h2 .black{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.feature .text_div h2 .yellow{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+.feature .text_div p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.feature .text_div button{
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    transition: all linear 0.3s;
+}
+.feature .text_div button:hover{
+    background-color: #FF900E80;
+}
+
+/* enjoy */
+.enjoy .container{
+    display: flex;
+    position: relative;
+}
+
+.enjoy .text_div{
+    width: 60%;
+}
+
+.enjoy .text_div h2{
+    padding-left: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 20px;
+}
+.enjoy .text_div p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.enjoy .text_div .text_box{
+    padding: 15px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.enjoy .text_div .text_box h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.enjoy .text_div .text_box p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 0px;
+}
+
+.enjoy .img_div{
+    padding-left: 50px;
+}
+
+.enjoy button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(-50%);
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+.enjoy button span{
+    margin: 0;
+    font-style: normal;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 25px;
+}
+.enjoy button:hover{
+    background-color: #FF900E80;
+}
+
+/* fact */
+.fact h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.fact p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.fact .card_box{
+    display: flex;
+    justify-content: space-around;
+}
+.fact .card_box .card{
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.fact .card_box .card:hover{
+    box-shadow: 5px 3px 12px #00000060;
+}
+.fact .card_box .card .imgbox{
+    height: 45px;
+    width: 45px;
+    margin: 0 auto;
+}
+.fact .card_box .card h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    text-align: center;
+    margin-top: 10px;
+}
+.fact .card_box .card h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    text-align: center;
+}
+
+/* sponser */
+.sponser h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.sponser p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.sponser .img_div{
+    display: flex;
+}
+.sponser .img_div .imgbox{
+    padding: 20px;  
+}
+.sponser .img_div .imgbox img{
+    filter: grayscale(100%);
+}
+
+/* contact ( Optional section ) */
+.contact .container{
+    display: flex;
+}
+.contact .text_box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .text_box h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.contact .form input, textarea{
+    width: 100%;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin-bottom: 20px;
+}
+.contact .form button{
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    transition: all linear 0.3s;
+}
+.banner .button_box button:hover{
+    background-color: #FF900E80;
+}
+/* footer */
+.footer{
+    padding: 40px 0px;
+}
+.footer .container{
+    border-radius: 8px;
+    padding: 40px 0px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.footer p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}

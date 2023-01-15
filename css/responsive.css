@@ -1,0 +1,82 @@
+@media (max-width: 576px) { 
+    
+    .container{
+        width: 90%;
+        margin-left: 5%;
+    }
+ 
+    .navbar .container{
+        display: block;
+    }
+    .navbar .nav_menu{
+        display: block;
+    }
+    .navbar .nav_menu li{
+        text-align: center;
+    }
+
+    .feature .container{
+        display: block;
+        gap: 20px;
+    }
+    .feature .img_div{
+        display: block;
+        width: 100%;
+    }
+    .feature .img_div .imgbox{
+        width: 100%;
+    }
+
+    .enjoy .container{
+        display: block;
+    }
+    .enjoy .text_div{
+        width: 100%;
+    }
+    .enjoy .img_div{
+        padding-left: 0px;
+    }
+    .enjoy button{
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateY(0%) translateX(-50%);
+    }
+
+    .fact .card_box{
+        display: block;
+    }
+    .fact .card_box .card{
+        margin-bottom: 20px;
+    }
+
+    .sponser .img_div{
+        display: block;
+        width: 100%;
+    }
+    .sponser .img_div .imgbox{
+        width: 50%;
+        margin: 0 auto;  
+    }
+
+    .contact .container{
+        display: block;
+    }
+    .contact .text_box{
+        width: 100%;
+    }
+    .contact .text_box h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contact .form{
+        width: 100%;
+    }
+    .contact .form input, textarea{
+        width: 90%;
+    }
+    .footer{
+        padding: 0px;
+    }
+}
